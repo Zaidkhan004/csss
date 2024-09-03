@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>use in specificity</title>
+    <style>
+        h1 {
+            color: rgb(10, 138, 38);
+        }
+
+        h1.yellow {
+            color: yellow;
+
+        }
+
+       
+
+        .cred {
+            color: rgb(223, 62, 62);
+        }
+        .blue {
+            color: blue;
+        }
+/* 
+        [data-x=a] {
+            background-color: aqua;
+        } */
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="yellow cred cblue" data-x="a"> CSS specificity</h1>
+    </div>
+</body>
+
+</html>

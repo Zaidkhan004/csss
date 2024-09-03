@@ -1,0 +1,103 @@
+/* External CSS file (styles.css) */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styling */
+.hero {
+    background: #2ecc71;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* About section styling */
+.about {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    margin-top: 0;
+}
+
+.about p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Contact section styling */
+.contact {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
